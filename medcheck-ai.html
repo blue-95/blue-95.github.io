@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<!--
+	Hyperspace by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Hyperspace by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="title">Hyperspace</a>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="generic.html" class="active">Generic</a></li>
+						<li><a href="elements.html">Elements</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<section id="main" class="wrapper">
+    <div class="inner">
+        <h1 class="major">MedCheck AI: Healthcare Advocacy</h1>
+        <span class="image fit"><img src="images/pic06.jpg" alt="MedCheck AI Interface Analysis" /></span>
+        
+        <p>Medical billing is notoriously opaque, leaving patients vulnerable to upcoding, duplicate charges, and hidden fees. MedCheck AI is an award-winning, generative AI application designed to ingest raw medical bills, analyze line-item charges against fair pricing models, and empower patients to advocate for themselves.</p>
+
+        <h2>The Challenge</h2>
+        <p>Patients receive complex bills filled with confusing CPT codes and lacking clear descriptions. Without specialized medical billing knowledge, it is nearly impossible for a standard patient to identify when they are being overcharged for an emergency room visit or billed twice for the same MRI. The goal was to build a tool that translates this unstructured, intimidating data into a clear, actionable financial diagnostic.</p>
+
+        <h2>The Architecture & Workflow</h2>
+        <p>I engineered an intuitive end-to-end system focusing on data extraction and LLM-driven analysis:</p>
+        <ul>
+            <li><strong>Unstructured Data Ingestion:</strong> Built a streamlined front-end interface where users can directly paste raw, unstructured text from their medical bills or EOBs (Explanation of Benefits).</li>
+            <li><strong>LLM-Driven Analysis:</strong> Leveraged Large Language Models to parse the text, extract specific CPT codes, identify facility fees, and cross-reference billed amounts against standard geographical cost ranges.</li>
+            <li><strong>Diagnostic Reporting Engine:</strong> Designed an automated dashboard that calculates a "Pricing Reasonableness" score, flags specific line items as 'high' or 'duplicate', and calculates potential dollar-amount savings.</li>
+            <li><strong>Actionable Advocacy:</strong> Engineered the system to dynamically generate tailored "Questions to Ask Your Provider" and concrete next steps, giving users a direct script for negotiation.</li>
+        </ul>
+
+        <h2>The Impact & Recognition</h2>
+        <p>By translating opaque billing data into plain language, MedCheck AI successfully identifies hundreds to thousands of dollars in potential savings per analyzed bill. Recognizing its flawless execution and high societal impact, the application was awarded <strong>1st Prize</strong> in a competitive technical hackathon.</p>
+        
+        <ul class="actions">
+            <li><a href="index.html" class="button">Back to Portfolio</a></li>
+        </ul>
+    </div>
+</section>
+
+			</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
